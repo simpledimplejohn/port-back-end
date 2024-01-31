@@ -12,3 +12,4 @@ This project is a lightwieght full stack application that allows testing of port
 
 ## Setting Up Node
 `npm init -y`
+`npm install express`

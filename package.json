@@ -1,0 +1,15 @@
+{
+  "name": "port-back-end",
+  "version": "1.0.0",
+  "description": "This project is a lightwieght full stack application that allows testing of port configurations on servers by sending simple messages back and forth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
