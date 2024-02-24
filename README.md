@@ -14,7 +14,8 @@ This project is a lightwieght full stack application that allows testing of port
 `npm init -y`
 `npm install express`
 `npm install moment`
-To Run:
+
+## To Run:
 `node server.js`
 To Stop:
 (Ctrl + C)
