@@ -28,5 +28,5 @@ To Stop:
     Enter the URL http://localhost:3000/log.
     Select the "Body" tab.
     Choose "raw" and set the content type to "JSON".
-    Enter {"word":"potato"} in the request body.
+    Enter `{"word":"potato"}` in the request body.
     Click "Send" to make the request.

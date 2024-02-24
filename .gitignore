@@ -51,3 +51,5 @@ Carthage/Build/
 
 # Ignore Swift Package Manager dependency directory (if using SPM)
 Packages/
+
+node_modules
