@@ -32,7 +32,7 @@ app.post('/log', (req, res) => {
             return;
         }
         console.log('Word logged successfully:', logMessage);
-        res.send('Word logged successfully', logMessage);
+        res.send(`Word logged successfully ${logMessage}`);
     });
 });
 
