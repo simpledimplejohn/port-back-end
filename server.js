@@ -30,8 +30,8 @@ app.post('/log', (req, res) => {
             res.status(500).send('Error writing to log file');
             return;
         }
-        console.log('Word logged successfully:', word);
-        res.send('Word logged successfully');
+        console.log('Word logged successfully:', logMessage);
+        res.send('Word logged successfully', logMessage);
     });
 });
 

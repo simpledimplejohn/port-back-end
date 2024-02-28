@@ -31,3 +31,7 @@ To Stop:
     Choose "raw" and set the content type to "JSON".
     Enter `{"word":"potato"}` in the request body.
     Click "Send" to make the request.
+
+## Current Update Method
+- each branch will be configured to a different deployment
+    - aws branch is set to 
