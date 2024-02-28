@@ -17,7 +17,7 @@ app.post('/log', (req, res) => {
     const timestamp = moment().format('MM/DD/YYYY HH:mm:ss.SSS Z');
 
     // Create log message
-    const logMessage = `${timestamp} INFO Word = ${word}\n`;
+    const logMessage = `${timestamp} type : INFO,  Word = ${word}\n`;
 
     // Log the message to the console
     console.log(logMessage);
