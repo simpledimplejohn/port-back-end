@@ -17,7 +17,7 @@ app.post('/log', (req, res) => {
     // Get current timestamp in the specified format
     const timestamp = moment().format('MM/DD/YYYY HH:mm:ss.SSS Z');
 
-    const logmsg = "server : awsEC2"
+    const logmsg = "server : azure"
 
     // Create log message
     const logMessage = `${timestamp} INFO , ${logmsg},  Word : ${word}\n`;
